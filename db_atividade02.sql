@@ -25,7 +25,14 @@ VALUES ("Bola", "Bola Penalty", 100.00, 20, "Brinquedo"),
 ("Fone de ouvido", "Fone de ouvido Sony", 78.90, 65, "Eletrônicos"),
 ("Teclado", "Teclado Redragon", 659.90, 18, "Eletrônicos");
 
-SELECT * FROM tb_produtos;
+UPDATE tb_produtos SET preco = 820.00 WHERE id = 2;
+UPDATE tb_produtos SET preco = 580.00 WHERE id = 9;
+
 SELECT * FROM tb_produtos WHERE preco > 500.00;
 
 SELECT * FROM tb_produtos WHERE preco < 500.00;
+
+UPDATE tb_produtos SET preco = 2.50, descricao = "Caneca BIC Vermelha" WHERE id = 6;
+
+SELECT * FROM tb_produtos ORDER BY nome ASC;
+
