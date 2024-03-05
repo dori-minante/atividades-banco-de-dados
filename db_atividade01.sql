@@ -21,7 +21,8 @@ VALUES ("Lucas da Silva", "Auxiliar de Recursos Humanos", 2300.00, "2021-05-21",
 ("João dos Santos", "Gerente de vendas", 6500.00, "2019-04-07", "Vendas"),
 ("Maria dos Santos", "Analista Financeiro", 3500.00, "2018-04-06", "Finanças"),
 ("Aline Vieira", "Vendedora", 1800.00, "2022-03-09", "Vendas"),
-("Bianca Martins", "Estagiária", 1200.00, "2022-03-09", "TI");
+("Bianca Martins", "Estagiária", 1200.00, "2022-03-09", "TI"),
+("Anderson Silva", "Estagiário", 1200.00, "2022-03-09", "TI");
 
 SELECT * FROM tb_colaboradores WHERE salario > 2000.00;
 
