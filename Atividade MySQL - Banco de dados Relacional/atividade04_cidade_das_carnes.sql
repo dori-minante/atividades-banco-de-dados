@@ -1,4 +1,4 @@
-CREATE DATABASE db_\;
+CREATE DATABASE db;
 
 USE db_cidade_das_carnes;
 
